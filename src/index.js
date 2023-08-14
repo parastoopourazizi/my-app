@@ -1,17 +1,53 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import './index.css'
+
+
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+<>
+<header>header</header>
+<section>
+  <div className="row">
+    <div className="col">
+      <div className="card">
+        <img src="./images/1.jpg" alt="" />
+        <div className="card-body">
+          <h5 className="card-title">shoes1</h5>
+          <p className="card-text">Men's Sneakers Running Shoes Tennis Shoes Comfort Shoes Casual Outdoor Daily Walking Shoes PU Black / Red White Dark Blue Fall</p>
+          <button className='add-to-card'>add to card</button>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card">
+        <img src="./images/1.jpg" alt="" />
+        <div className="card-body">
+          <h5 className="card-title">shoes1</h5>
+          <p className="card-text">Men's Sneakers Running Shoes Tennis Shoes Comfort Shoes Casual Outdoor Daily Walking Shoes PU Black / Red White Dark Blue Fall</p>
+          <button className='add-to-card'>add to card</button>
+        </div>
+      </div>
+    </div>
+    <div className="col">
+      <div className="card">
+        <img src="./images/1.jpg" alt="" />
+        <div className="card-body">
+          <h5 className="card-title">shoes1</h5>
+          <p className="card-text">Men's Sneakers Running Shoes Tennis Shoes Comfort Shoes Casual Outdoor Daily Walking Shoes PU Black / Red White Dark Blue Fall</p>
+           <button className='add-to-card'>add to card</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<footer>footer
+</footer>
+</>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
