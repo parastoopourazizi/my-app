@@ -1,10 +1,10 @@
 import './User.css'
-function User(){
+function User(props){
     return(
         <div className="container">
-            <p>name: milad</p>
-            <p>age: 26</p>
-            <p>height: 170</p>
+            <p>name: {props.name}</p>
+            <p>age: {props.age}</p>
+            <p>height: {props.height}</p>
         </div>
     )
     }
