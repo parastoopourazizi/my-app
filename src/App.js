@@ -1,16 +1,21 @@
-import User from "./User"
-import './App.css'
+import User from "./User";
+import './App.css';
 
 function App(){
+  
     return(
         <div className="row">
-            <User name='milad' age='22' height='180' />
-            <User name='parastoo' age='28' height='160'/>
-            <User name='sara' age='25' height='30'  />
+            <User name="milad" >
+                <div>میلاد</div></User>
+            <User name='hasan' >
+            <div>میلاد</div>
+                </User>
+            <User name="paras">
+            <div>میلاد</div></User>
            
             
 
         </div>
-    )
+    );
 }
-export default App
+export default App;

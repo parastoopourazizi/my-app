@@ -1,10 +1,10 @@
 import './User.css'
-function User({name , age , height}){
+function User({name , children}){
     return(
         <div className="container">
             <p>name: {name}</p>
-            <p>age: {age}</p>
-            <p>height: {height}</p>
+            {children}
+            
         </div>
     )
     }
