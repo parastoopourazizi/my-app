@@ -13,12 +13,12 @@
     line-height: 100px;
     font-size: 2rem;
  }
- .row{
+ /* .row{
     display: flex;
     width: 1000px;
     justify-content: center;
     margin: 20px auto;
- }
+ } */
  .col{
  
     padding: 1rem;
