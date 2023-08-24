@@ -13,15 +13,42 @@
     line-height: 100px;
     font-size: 2rem;
  }
- /* .row{
+ .row{
     display: flex;
     width: 1000px;
     justify-content: center;
     margin: 20px auto;
- } */
+ }
  .col{
  
     padding: 1rem;
  }
+ .card{
+   box-shadow: 0 0 15px rgba(0, 0, 0, .2);
+  border-radius: 15px;
+}
+.card-body{
+   padding: 10px 20px;
+}
+.card-title{
+   font-weight: bold;
+   font-size: 2rem;
+}
+.card-text{
+   text-align:justify ;
+   padding: 10px 0;
+}
+.add-to-card{
+   all: unset;
+   background: #eb9616;
+   color: #fff;
+   width: 90%;
+   padding: 10px 0;
+   font-size: 1.2 rem;
+   border-width: bold;
+   border-radius: 10px;
+   margin: 15px 0;
+
+}
  
  
