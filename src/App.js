@@ -1,17 +1,12 @@
- import Card from "./Card"
- function App(){
+import Header from "./components/header/Header"
+
+function App(){
     return(
-        <section>
-    <div className="row">
-     <Card />
-     <Card />
-     <Card />
-     
-      
-    </div>
-  </section>
+        <>
+        <Header />
+        </>
 
     )
- }
- export default App
 
+}
+export default App
