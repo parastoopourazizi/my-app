@@ -1,10 +1,11 @@
 import './About.css'
+import aboutimage from '../../assets/images/about.jpg'
 function About(){
     return(
         <section id="about">
       <div className="about">
         <h2 className="title">About Me</h2>
-        <img className="about-img" src="./img/about.jpg" alt="milad" />
+        <img className="about-img" src={aboutimage} alt="milad" />
         <p className="info">
           Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
           Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
