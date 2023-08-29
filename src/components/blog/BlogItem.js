@@ -1,25 +1,24 @@
 
-function BlogItem(){
+function BlogItem({BlogImg ,BlogTitle , BlogText , BlogAuthor ,  BlogTime}){
+    
     return(
-        <div class="col-4">
-            <div class="blog-box">
-              <div class="blog-img">
-                <img src="./img/post-1.jpg" class="img-fluid" />
+        <div className="col-4">
+            <div className="blog-box">
+              <div className="blog-img">
+                <img src="./img/post-1.jpg" className="img-fluid" />
               </div>
-              <div class="blog-content">
-                <h3 class="blog-title">post title 1</h3>
-                <p class="blog-desc">
-                  Proin eget tortor risus. Pellentesque in ipsum id orci porta
-                  dapibus. Praesent sapien massa, convallis a pellentesque nec,
-                  egestas non nisi.
+              <div className="blog-content">
+                <h3 className="blog-title">{BlogTitle}</h3>
+                <p className="blog-desc">
+                 {BlogText}
                 </p>
               </div>
-              <div class="blog-footer">
-                <div class="post-author">
-                  <p class="author">parastoo pourazizi</p>
+              <div className="blog-footer">
+                <div className="post-author">
+                  <p className="author">{BlogAuthor}</p>
                 </div>
-                <div class="post-date">
-                  <span class="bi bi-clock"></span> 10 min
+                <div className="post-date">
+                  <span className="bi bi-clock"></span> {BlogTime}
                 </div>
               </div>
             </div>
